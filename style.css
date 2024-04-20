@@ -1,0 +1,63 @@
+h1{
+
+    text-align: center;
+}
+.navbar ul {
+
+    list-style-type: none;
+    background-color: orange;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+
+    background-color: blue;
+    color: white;
+}
+
+.navbar li{
+
+    float: left;
+}
+
+body {
+
+    background: blue;
+    color: white;
+}
+
+h3 {
+
+    color: orange;
+}
+
+h1 {
+
+    color: orange;
+}
+
+body p {
+
+    color: orange;
+}
+
+#About h3 {
+
+    text-align: center;
+}
+
+#About h4 {
+
+    text-align: center;
+}

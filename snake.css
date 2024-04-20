@@ -1,0 +1,28 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#returnButton {
+
+    text-decoration: none;
+    border: none;
+}
+
+#homeButton {
+
+    border: none;
+    background: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    width: 350px;
+    font-size: medium;
+}
+
+#homeButton:hover {
+
+    background: darkgrey;
+
+}
