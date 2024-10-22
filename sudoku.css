@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.sudoku-container {
+    display: inline-block;
+    margin: 20px auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #333;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #007BFF;
+}
+
+input[type="text"] {
+    color: black;
+}
+
+td {
+    padding: 0;
+    position: relative;
+}
+
+td:nth-child(3n),
+tr:nth-child(3n) td {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
