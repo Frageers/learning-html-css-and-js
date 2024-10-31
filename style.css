@@ -5,6 +5,7 @@ h1{
 .navbar ul {
 
     list-style-type: none;
+    background-color: rgba(250, 128, 114, 0.5);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
